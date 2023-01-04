@@ -1,10 +1,15 @@
 import {Link} from 'react-router-dom';
 import logo from '../../image/logo.jpeg';
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { GrLocation } from "react-icons/gr"
 
 const Footer = () => {
     return(
-        <div>
-            <footer className="text-white py-4 bg-secondary">
+       
+            <footer className="text-black py-4 bg-secondary mt-auto ">
                  <div className="container">
                     <nav className="row">
                         <Link to='/' className="col-12 col-md-3 d-flex alings-items-center justify-content-center">
@@ -12,27 +17,37 @@ const Footer = () => {
                         </ Link>
                         <ul className='col-12 col-md-3 list-unstyled'>
                             <li className='font-weight-bold '>CATEGORIAS</li>
-                            <Link><li>Inicio</li></Link>
-                            <Link><li>Productos</li></Link>
-                            <Link><li>Quienes Somos</li></Link>
-                            <Link><li>Contacto</li></Link>
+                            <li><Link to='/' className='text-white text-decoration-none'>Inicio</Link></li>
+                            <li><Link  to='/' className='text-white text-decoration-none'>Productos</Link></li>
+                            <li><Link  to='/QuienesSomos' className='text-white text-decoration-none'>Quienes Somos</Link></li>
+                            <li><Link  to='/Contacto' className='text-white text-decoration-none'>Contacto</Link></li>
                         </ul>
                         <ul className='col-12 col-md-3 list-unstyled'>
-                            <li className='font-weight-bold '>CONTACTANOS</li>
-                            <Link><li> logo 5493516468746</li></Link>
-                            <Link><li> logo placeress.sintacc@gmail.com</li></Link>
-                            <Link><li>logo Córdoba Capital</li></Link>
+                            <li className='font-weight-bold'>CONTACTANOS</li>
+                            <li>
+                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><FaWhatsapp/></i>5493516468746</a>
+                            </li>
+                            <li>
+                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><SiGmail/></i> placeress.sintacc@gmail.com</a>
+                            </li>
+                            <li>
+                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><GrLocation/></i> Córdoba Capital</a>
+                            </li>
                         </ul>
                         <ul className='col-12 col-md-3 list-unstyled'>
-                            <li className='font-weight-bold '>CONTACTANOS</li>
-                            <Link><li>logo de instagram</li></Link>
-                            <Link><li>logo de facebook</li></Link>
-                            
+                            <li className='font-weight-bold '>SIGUENOS</li>
+                            <li className='d-flex justify-content-center'>
+                                <a href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><FaFacebookSquare size={30}/></i></a>
+                                <a href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><FaInstagram size={30}/></i></a>
+                            </li>
                         </ul>
+                        <div className='container'>
+                              <p className='text-center mb-0 mt-2'> Todos los derechos reservados © 2022 Copyright Text</p>
+                        </div> 
                     </nav>
                  </div>
             </footer>
-        </div>
+       
     )
 }
 

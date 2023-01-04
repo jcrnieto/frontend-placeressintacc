@@ -1,16 +1,13 @@
-import NavBar from "../NavBar/NavBar";
+import Carousel from "../Carousel/Carousel";
 import Cards from "../Cards/Cards";
-import Footer from "../Footer/Footer";
-
 
 const Home = () => {
 
      return(
         <>
-        <NavBar/>
-        <Cards/>
-        <Footer/>
-        </>
+       <Cards/>
+       <Carousel/>
+       </>
     )
 }
 

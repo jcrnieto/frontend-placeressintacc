@@ -30,15 +30,16 @@ const AddProduct = () =>{
 
 
     return(
-        <div className='bg-secondary'>
+        <div className='container bg-secondary mt-5'>
             <h1>Cargar Producto</h1>
- <form className='col-md-8'  onSubmit={(e) => handleSubmit(e)} >
-  <div className="mb-3 ">
+ <form className='col-md-12'  onSubmit={(e) => handleSubmit(e)} >
+  <div className="mb-3">
     <label for="exampleInputEmail1" className="form-label">Titulo</label>
     <input type="text" 
            className="form-control input-lg" 
            id="exampleInputEmail1" 
            aria-describedby="emailHelp"
+           autofocus
            value={input.title}
            name="title"
            onChange={(e)=> handleChange(e)}
