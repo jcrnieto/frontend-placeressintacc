@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import logo from '../../image/logo.jpeg';
+import logos from "../../image/logos.jpeg"
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -9,11 +10,11 @@ import { GrLocation } from "react-icons/gr"
 const Footer = () => {
     return(
        
-            <footer className="text-black py-4 bg-secondary mt-auto ">
+            <footer className="text-black py-4 bg-custom-color mt-auto ">
                  <div className="container">
                     <nav className="row">
                         <Link to='/' className="col-12 col-md-3 d-flex alings-items-center justify-content-center">
-                            <img src={logo} className='mx-2' width='150'/>
+                            <img src={logos} className='mx-2' width='300'/>
                         </ Link>
                         <ul className='col-12 col-md-3 list-unstyled'>
                             <li className='font-weight-bold '>CATEGORIAS</li>
@@ -25,7 +26,7 @@ const Footer = () => {
                         <ul className='col-12 col-md-3 list-unstyled'>
                             <li className='font-weight-bold'>CONTACTANOS</li>
                             <li>
-                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><FaWhatsapp/></i>5493516468746</a>
+                                <a className='text-white text-decoration-none' href="https://wa.me/+543516468746" target="_blank" rel="noreferrer"><i><FaWhatsapp/></i>5493516468746</a>
                             </li>
                             <li>
                                 <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><SiGmail/></i> placeress.sintacc@gmail.com</a>

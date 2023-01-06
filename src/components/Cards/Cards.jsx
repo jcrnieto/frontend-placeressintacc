@@ -31,7 +31,7 @@ const Cards = () => {
     return(
         <div className='container-fluid'>
           <h1>Productos</h1>
-        <div className='card-group mx-3' >
+        <div className='d-flex p-2' >
           { displayProduct.length > 0 ?(
             displayProduct?.map((product) => {
                 return(

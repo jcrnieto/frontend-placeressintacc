@@ -22,7 +22,7 @@ const Contacto = () => {
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-9">
-          <form>
+          <form class="border border-custom-color rounded mt-3 mb-3 pe-3 ps-3">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">
                 Nombre
