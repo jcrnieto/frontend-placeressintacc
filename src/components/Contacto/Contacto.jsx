@@ -11,13 +11,13 @@ const Contacto = () => {
           <h2>Contacto</h2>
           <ul className='col-12 col-md-3 list-unstyled'>
           <li>
-             <a className='text-Dark text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><FaWhatsapp/></i>5493516468746</a>
+             <a className='link-secondary text-decoration-none d-flex mt-3' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-2"><FaWhatsapp/></i>5493516468746</a>
          </li>
          <li>
-             <a className='text-Dark text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><SiGmail/></i> placeress.sintacc@gmail.com</a>
+             <a className='link-secondary text-decoration-none d-flex mt-3' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-2"><SiGmail/></i> placeress.sintacc@gmail.com</a>
          </li>
          <li>
-             <a className='text-Dark text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><GrLocation/></i> Córdoba Capital</a>
+             <a className='link-secondary text-decoration-none d-flex mt-3' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-2"><GrLocation/></i> Córdoba Capital</a>
          </li>
           </ul>
         </div>

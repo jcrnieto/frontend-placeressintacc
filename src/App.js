@@ -9,6 +9,7 @@ import QuienesSomos from './components/QuienesSomos/QuienesSomos.jsx';
 import VentaMayorista from './components/VentaMayorista/VentaMayorista.jsx';
 import Contacto from './components/Contacto/Contacto.jsx';
 import MiCuenta from './components/MiCuenta/MiCuenta.jsx';
+import CrearCuenta from './components/CrearCuenta/CrearCuenta.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
          <Route  path='/VentaMayorista' element={<VentaMayorista/>}/>
          <Route  path='/Contacto' element={<Contacto/>}/>
          <Route  path='/MiCuenta' element={<MiCuenta/>}/>
+         <Route  path='/CrearCuenta' element={<CrearCuenta/>}/>
       </Routes>
       <Footer/>
     </div>

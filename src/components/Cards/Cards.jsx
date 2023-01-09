@@ -27,15 +27,15 @@ const Cards = () => {
         dispatch(getProduct())
       
     },[])
-
+    //d-flex justify-content-center
     return(
         <div className='container-fluid'>
-          <h1>Productos</h1>
-        <div className='d-flex p-2' >
+          <h1 className="fw-bold text-center">Productos</h1>
+        <div className='card-group justify-content-center' >
           { displayProduct.length > 0 ?(
             displayProduct?.map((product) => {
                 return(
-                    <div className='card text-center border-info' key={product.id}>
+                    <div  key={product.id}>
                        <Link to={'getId/'+ product.id}>
                           <Card
                             id={product.id}
@@ -59,7 +59,7 @@ const Cards = () => {
           breakLabel={'...'}
           pageCount={pageCount}
           onPageChange={handleClickPage}
-          containerClassName={'pagination justify-content-center'}
+          containerClassName={'pagination justify-content-center mt-3'}
           pageClassName={'page-item'}
           pageLinkClassName={'page-link'}
           previousClassName={'page-item'}

@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom';
-import logo from '../../image/logo.jpeg';
 import logos from "../../image/logos.jpeg"
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -26,13 +25,13 @@ const Footer = () => {
                         <ul className='col-12 col-md-3 list-unstyled'>
                             <li className='font-weight-bold'>CONTACTANOS</li>
                             <li>
-                                <a className='text-white text-decoration-none' href="https://wa.me/+543516468746" target="_blank" rel="noreferrer"><i><FaWhatsapp/></i>5493516468746</a>
+                                <a className='text-white text-decoration-none' href="https://wa.me/+543516468746" target="_blank" rel="noreferrer"><i className="mx-1"><FaWhatsapp/></i>5493516468746</a>
                             </li>
                             <li>
-                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><SiGmail/></i> placeress.sintacc@gmail.com</a>
+                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i> placeress.sintacc@gmail.com</a>
                             </li>
                             <li>
-                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i><GrLocation/></i> Córdoba Capital</a>
+                                <a className='text-white text-decoration-none' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-1"><GrLocation/></i> Córdoba Capital</a>
                             </li>
                         </ul>
                         <ul className='col-12 col-md-3 list-unstyled'>
@@ -43,7 +42,7 @@ const Footer = () => {
                             </li>
                         </ul>
                         <div className='container'>
-                              <p className='text-center mb-0 mt-2'> Todos los derechos reservados © 2022 Copyright Text</p>
+                              <p className='text-center mb-0 mt-2'> Todos los derechos reservados © 2022 Copyright Placeres sin tacc </p>
                         </div> 
                     </nav>
                  </div>

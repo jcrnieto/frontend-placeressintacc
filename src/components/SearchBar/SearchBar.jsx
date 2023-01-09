@@ -22,12 +22,12 @@ const SearchBar = () => {
     <form class="d-flex" role="search">
         <input className="form-control me-2"
                type="search" 
-               placeholder="buscar producto..." 
+               placeholder="Que producto necesitas?" 
                aria-label="Search"
                onChange={(e)=>handleInput(e)}
          />
          
-        <button className="btn btn-outline-success btn-dark" type="submit" onClick={(e)=>handleSubmit(e)}>Search</button>
+        <button className="btn btn-outline-dark btn-light" type="submit" onClick={(e)=>handleSubmit(e)}>Buscar</button>
     </form>
     )
 }

@@ -15,8 +15,8 @@ const CardId = ()=>{
     },[dispatch,id])
     return(
       <div className='container'>
-        <div class="card mb-5">
-           <img src={idProduct.image} class="card-img-top" alt="..."/>
+        <div class="card mb-5 mt-5">
+           <img src={idProduct.image} class="card-img-top"  alt="..."/>
            <div class="card-body">
            <h5 class="card-title">{idProduct.title}</h5>
            <p class="card-text">{idProduct.description}</p>
