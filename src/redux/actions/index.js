@@ -15,7 +15,7 @@ export function addProduct(payload ){
 export function getProduct(){
     return async function (dispatch){
         try{
-            var json = await axios.get('http://localhost:1600/getProduct')
+            var json = await axios.get('/getProduct')
             //console.log('actions', json.data)
             return dispatch({
                 type:'GET_PRODUCTS',
