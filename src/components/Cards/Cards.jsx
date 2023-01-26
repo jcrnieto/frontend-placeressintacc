@@ -51,7 +51,7 @@ const Cards = () => {
                 );
             }
             
-          )): <div className="not-found"><h1>No se encontró receta</h1></div> }
+          )): <div className="not-found"><h1>No se encontró producto</h1></div> }
           </div>
           <ReactPaginate
           previousLabel={'<<'}

@@ -1,12 +1,11 @@
-//import { Carousel } from "bootstrap";
 import panCordero from '../../image/panCordero.jpeg'
 import sandwichMiga from '../../image/sandwichMiga.jpeg'
 import tortaChocolate from '../../image/tortaChocolate.jpeg'
-//import tortaMerengue from '../../image/tortaMerengue.jpeg'
+
 
 const Carousel = () => {
     return(
-      <>
+      <div className='container mb-3'>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -36,7 +35,7 @@ const Carousel = () => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-      </>
+</div>
     )
 }
 

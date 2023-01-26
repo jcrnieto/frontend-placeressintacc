@@ -1,14 +1,12 @@
 const QuienesSomos = () => {
     return (
         <div className="container">
-            <p>Holaaa !  Les damos la Bienvenida al mundo de Indie.bebe un emprendimiento que poco a poco se va ganando el título de empresa. 
-
-Si estas leyendo esto y quizás no nos conozcas queremos presentarnos, somos Celes & Meme, somos amigas de la vida y ahora las creadoras de este sueño hecho realidad que va creciendo día a día. 
-
-Hacemos “Pequeñas prendas con alma”, sin diferenciación de género considerando que los colores no tienen clasificación; para bebés desde el talle Prematuro, el cual fue nuestro punto de partida y hasta los 24 meses. 
-
-Desde el primer día nuestra premisa fue  hacer algo bien diferente a lo que se puede encontrar en el mercado de indumentaria de bebé sumando y siendo parte de esta nueva propuesta que se plantea mundialmente de moda sustentable, moda etica o slowfashion.
-Confeccionando prendas cuya calidad no solo acompañe el día y a día, sino que las mismas puedan heredarse y así seguir vistiendo a los pequeños #miniindies quw las reciben. </p>
+            <p className="mt-5">Somos Placeres Sin Tacc, una empresa dedicada a la elaboración de productos libres de gluten y sin tacc. 
+Todo comenzó en el año 2015 cuando después de un diagnóstico de celiaquia me encontré en el desafío de conseguir productos sin gluten. Al no encontrar la variedad que me gustaría, decidí abrir un local bar - almacén 100% libre de gluten en donde los celíacos pudiesen encontrar todo lo que buscaban en un solo lugar. 
+La demanda de los celíacos por "lo casero" me obligó a ir por más y comencé a elaborar algunos productos como medialunas y criollos (bizcochitos). 
+7 años después, nos dedicamos exclusivamente a la elaboración de una amplia variedad de productos (más de 40) destacando su sabor artesanal, casero y apto para todos! Cómo apto para todos? Si son sin TACC! 
+Claro que son aptos para todos porque trabajamos día a día para que una persona celíaca no tenga que comer diferente o distinto en una reunión social. Todos pueden comer nuestras pizzas, pastas y panes sin sentir un gusto feo o con "gusto a celiaco" cómo suelen llamarlo. 
+Animate a probar nuestros productos porque después ya no hay vuelta atrás! </p>
         </div>
     )
 }
