@@ -5,7 +5,7 @@ import tortaChocolate from '../../image/tortaChocolate.jpeg'
 
 const Carousel = () => {
     return(
-      <div className='container mb-3'>
+      <div className='container mb-3 bg-fondo-carousel'>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -22,9 +22,6 @@ const Carousel = () => {
     <div class="carousel-item">
       <img src={tortaChocolate} class="d-block w-100" alt="..."/>
     </div>
-    {/* <div class="carousel-item">
-      <img src={tortaMerengue} class="d-block w-100" alt="..."/>
-    </div> */}
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

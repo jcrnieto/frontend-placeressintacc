@@ -29,9 +29,9 @@ const Cards = () => {
     },[])
     //d-flex justify-content-center
     return(
-        <div className='container-fluid'>
+        <div className='container'>
           <h1 className="fw-bold text-center">Productos</h1>
-        <div className='card-group justify-content-center' >
+        <div className='card-group text-center justify-content-center' >
           { displayProduct.length > 0 ?(
             displayProduct?.map((product) => {
                 return(

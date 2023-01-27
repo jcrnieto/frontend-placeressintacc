@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useParams,Link } from "react-router-dom";
 import { getProductId } from "../../redux/actions";
+import "./cardId.css";
 
 const CardId = ()=>{
 
@@ -14,8 +15,8 @@ const CardId = ()=>{
        dispatch(getProductId(id))
     },[dispatch,id])
     return(
-      <div className='container w-50'>
-        <div class="card mb-5 mt-5">
+      <div className='container w-80'>
+        <div class="card mb-5 mt-5" >
            <img src={idProduct.image} class="card-img-top"  alt="..."/>
            <div class="card-body">
            <h5 class="card-title">{idProduct.title}</h5>
