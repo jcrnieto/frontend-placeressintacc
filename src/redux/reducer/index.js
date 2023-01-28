@@ -26,6 +26,10 @@ function rootReducer (state = initialState, action) {
                 ...state,
                 title: action.payload
             }
+        case 'POST_ADD_USER':
+            return{
+                ...state
+            }
              
         default:
             return state;
