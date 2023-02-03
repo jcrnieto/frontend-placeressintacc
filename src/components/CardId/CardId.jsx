@@ -22,6 +22,7 @@ const CardId = ()=>{
            <h5 class="card-title">{idProduct.title}</h5>
            <p class="card-text">{idProduct.description}</p>
            <p class="card-text"><small class="text-muted">${idProduct.price}</small></p>
+           <a href="https://wa.me/+543516468746" target="_blank" className="btn btn-primary">Consultar</a>
         </div>
         <Link to={'/'}>VOLVER</Link>
 

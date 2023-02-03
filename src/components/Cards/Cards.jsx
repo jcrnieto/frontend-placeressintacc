@@ -35,7 +35,7 @@ const Cards = () => {
           { displayProduct.length > 0 ?(
             displayProduct?.map((product) => {
                 return(
-                    <div  key={product.id}>
+                    <div className=" d-flex alings-items-center justify-content-center" key={product.id}>
                        <Link to={'getId/'+ product.id}>
                           <Card
                             id={product.id}

@@ -54,7 +54,7 @@ const CrearCuenta = () => {
               }}
               >
                 {( {errors} ) => (
-                    <Form action="#" className='w-50 mt-4'>
+                    <Form action="#" className='mt-4 mb-4'>
                     <div className="mb-4">
                       <label for="email" className="form-label">Correo Electrónico</label>
                       <Field 

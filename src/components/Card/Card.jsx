@@ -9,7 +9,7 @@ const Card = ({title, image, description, price}) => {
                 <div className="card-body text-decoration-none">
                    <h5 className="card-title">{title}</h5>
                    <p className="card-text ">${price}</p>
-                   <a href="#" className="btn btn-primary">comprar</a>
+                   <a href="https://wa.me/+543516468746" className="btn btn-primary">mas info...</a>
                 </div>
            </div>
     )
