@@ -30,16 +30,16 @@ const CardId = ()=>{
    //   </div>
    // </div>
 
-   //style="max-width: 23rem;
+   
    //style="background-color: rgba(251, 251, 251, 0.15);"
    <div class="container">
-   <section class="mx-auto my-5">
+   <section class="mx-auto my-5" style={{maxWidth: 45 + 'rem'}} >
        
      <div class="card">
        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
          <img src={idProduct.image} class="img-fluid" />
          <a href="#!">
-           <div class="mask" ></div>
+           <div class="mask" style={{backgroundcolor: 'FBFBFB'}} ></div>
          </a>
        </div>
        <div class="card-body">
@@ -67,13 +67,13 @@ const CardId = ()=>{
          {idProduct.description}
          </p>
          <hr class="my-4" />
-         <div className="d-flex justify-content-center">
-         <div className="mr-3">
-         <a href="https://wa.me/+543516468746" class="btn  btn-primary" target="_blank">Consultar</a>
-         </div>
-         <div className="mr-3">
+         <div className="d-flex justify-content-center ">
+         
+         <a href="https://wa.me/+543516468746" class="btn btn-primary" target="_blank">Consultar</a>
+         
+         
          <Link to={'/'}><button type="button" class="btn btn-secondary ">Volver a Menú Principal</button></Link>
-         </div>
+        
          </div>
        </div>
      </div>
