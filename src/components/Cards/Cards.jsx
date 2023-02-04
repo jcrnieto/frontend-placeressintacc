@@ -1,4 +1,4 @@
-import Card from "../Card/Card";
+import Card from "../Card/CardUnit";
 import {Link} from 'react-router-dom';
 import { useDispatch, useSelector} from 'react-redux';
 import { useState, useEffect} from 'react';
