@@ -17,21 +17,6 @@ const CardId = ()=>{
 
 
     return(
-   //    <div className='container w-80'>
-   //      <div class="card mb-5 mt-5" >
-   //         <img src={idProduct.image} class="card-img-top"  alt="..."/>
-   //         <div class="card-body">
-   //         <h5 class="card-title">{idProduct.title}</h5>
-   //         <p class="card-text">{idProduct.description}</p>
-   //         <p class="card-text"><small class="text-muted">${idProduct.price}</small></p>
-   //         <a href="https://wa.me/+543516468746" target="_blank" className="btn btn-primary">Consultar</a>
-   //      </div>
-   //      <Link to={'/'}>VOLVER</Link>
-   //   </div>
-   // </div>
-
-   
-   //style="background-color: rgba(251, 251, 251, 0.15);"
    <div class="container">
    <section class="mx-auto my-5" style={{maxWidth: 45 + 'rem'}} >
        
