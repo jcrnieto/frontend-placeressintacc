@@ -71,3 +71,17 @@ export function postAddUser(payload){
         }
     }
 }
+
+export function postClientEmail(payload){
+    console.log('action', payload)
+    return async function(dispatch){
+        try{
+         var json = await axios.post("/clientEmail", payload)
+        
+         return json.data;
+        
+        }catch (error) {
+            console.log(error)
+        }
+    }
+}

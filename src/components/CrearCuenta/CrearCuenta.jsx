@@ -63,8 +63,7 @@ const CrearCuenta = () => {
                           name="email"
                           id="email"
                         />
-                        {errors.email && <div className="alert">{errors.email}</div> }
-                       {/* <ErrorMessage name= "email" component={()=>(<div className="alert">{errors.email}</div>)}/> */}
+                     <ErrorMessage name= "email" component={()=>(<div className="alert">{errors.email}</div>)}/>
                     </div>
                     <div className="mb-4">
                     <label for="email" className="form-label">Contraseña</label>
@@ -74,8 +73,7 @@ const CrearCuenta = () => {
                          name="password" 
                          id="password"
                          />
-                         {errors.password && <div className="alert">{errors.password}</div> }
-                        {/* <ErrorMessage name= "password" component={()=>(<div className="alert">{errors.password}</div>)}/> */}
+                         <ErrorMessage name= "password" component={()=>(<div className="alert">{errors.password}</div>)}/>
                     </div>
                     <div className="mb-4">
                     <label for="email" className="form-label">Confirmar Contraseña</label>
@@ -85,8 +83,7 @@ const CrearCuenta = () => {
                           name="confirmPassword"
                           id="confirmPassword"
                          />
-                        {errors.confirmPassword && <div className="alert">{errors.confirmPassword}</div> }
-                      {/* <ErrorMessage name= "confirmPassword" component={()=>(<div className="alert">{errors.confirmPassword}</div>)}/> */}
+                      <ErrorMessage name= "confirmPassword" component={()=>(<div className="alert">{errors.confirmPassword}</div>)}/> 
                     </div>
                     <div className="d-grid">
                       <button type="submit" className="btn btn-primary">Iniciar Sesion</button>
