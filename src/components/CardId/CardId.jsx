@@ -16,7 +16,7 @@ const CardId = () => {
 
   return (
     <div class="container">
-      <section class="mx-auto my-5"  style={{ position: 'relative', width: '1000px' }}>
+      <section class="mx-auto my-5" >
         <div class="card-id"  >
           <div
             class="bg-image hover-overlay ripple"

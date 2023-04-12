@@ -1,6 +1,6 @@
 import "./cardUnit.css"
 
-const Card = ({title, image,  price}) => {
+const Card = ({title, image, description, price}) => {
 
    
     return(
