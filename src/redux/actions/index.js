@@ -47,7 +47,7 @@ export function getSearchTitle(title){
     return async function (dispatch){
         try{
            var json = await axios.get(`/getName?title=${title}`)
-           //console.log('actions', json.data)
+           console.log('actions', json.data)
            return dispatch({
             type: 'GET_SEARCH_TITLE',
             payload: json.data

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getSearchTitle } from '../../redux/actions';
+import { getSearchTitle, getProduct } from '../../redux/actions';
 
 const SearchBar = () => {
 
@@ -10,16 +10,21 @@ const SearchBar = () => {
     function handleInput(e){
         e.preventDefault();
         setTitle(e.target.value)
+        if(e.target.value === ""){
+            dispatch(getProduct());
+        }
     }
 
     function handleSubmit(e){
          e.preventDefault();
-         dispatch(getSearchTitle(title))
+         dispatch(getSearchTitle(title));
+         console.log(title);
         //document.getElementById("search").value = "";
     }
+    
 
     return(
-    <form class="d-flex" role="search">
+    <form class="d-flex" role="search" onSubmit={(e)=>handleSubmit(e)}>
         <input className="form-control me-2"
                type="search" 
                placeholder="Que producto necesitas?" 
@@ -27,7 +32,7 @@ const SearchBar = () => {
                onChange={(e)=>handleInput(e)}
          />
          
-        <button className="btn btn-outline-dark btn-light" type="submit" onClick={(e)=>handleSubmit(e)}>Buscar</button>
+        <button className="btn btn-outline-dark btn-light" type="submit">Buscar</button>
     </form>
     )
 }
