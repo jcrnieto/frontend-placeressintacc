@@ -16,10 +16,10 @@ export function getProduct(){
     return async function (dispatch){
         try{
             var json = await axios.get('/getProduct')
-            //console.log('actions', json.data)
+            console.log('actions', json.data.result);
             return dispatch({
                 type:'GET_PRODUCTS',
-                payload: json.data
+                payload: json.data.result
             })
         }catch(error){
             console.log(error)

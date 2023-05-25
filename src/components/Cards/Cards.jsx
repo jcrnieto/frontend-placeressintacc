@@ -22,7 +22,7 @@ const Cards = () => {
     const pagesVisited = pageNumber * productPerPage;
     const displayProduct = allProducts.slice(pagesVisited,pagesVisited + productPerPage);
     const pageCount = Math.ceil(allProducts.length / productPerPage);
-
+    console.log('displayProduct', displayProduct);
     useEffect(()=>{
         dispatch(getProduct())
       
